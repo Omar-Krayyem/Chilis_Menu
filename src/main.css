@@ -119,7 +119,38 @@ div ul li{
 }
 
 .body-child2{
-    background-color: aquamarine;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.item-card{
+    width: 24%;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+
+.item-card h3{
+    text-align: left;
+    font-size: 1.4rem;
+    color: #4a4a4a;
+    letter-spacing: 0.05rem;
+    font-family: Montserrat,sans-serif;
+    font-weight: bold;
+}
+
+.item-card img{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    box-shadow: 0 1px 4px 0 hsla(0,0%,61%,.5);
+    border-radius: 3px;
 }
 
 .body-child3{
@@ -171,6 +202,7 @@ div ul li{
     box-shadow: 0 1px 4px 0 hsla(0,0%,61%,.5);
     text-align: center;
     cursor: pointer;
+    justify-content: center;
 }
 
 .section2{
