@@ -93,3 +93,90 @@ div ul li{
 .fontawsome{
     display: inline-block;
 }
+
+.body-container{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0 8%;
+}
+
+.body-child1{
+    text-align: center;
+    margin-top: 60px;
+    font-family: Barlow\ Condensed,sans-serif;
+}
+
+.body-child1 > h1{
+    color:  #ed1c24;
+    font-weight: 900;
+}
+
+.body-child1 > p{
+    color: #4a4a4a;
+    font-size: medium;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+.body-child2{
+    background-color: aquamarine;
+}
+
+.body-child3{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.section1{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.part1 > label{
+    font-size: small;
+    line-height: 1.5em;
+    color: #4a4a4a;
+    display: inline-block;
+    letter-spacing: 1.1px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    width: 100%;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+}
+
+.part1 > a{
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    color: #5d9732;
+    display: inline-block;
+    position: relative;
+    letter-spacing: .05rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.part2{
+    background-color: transparent;
+    border-color: #a3a3a3;
+    color: #4a4a4a;
+    padding: 6px 24px;
+    border-radius: 4px;
+    font-size: 11px;
+    letter-spacing: 1.7px;
+    line-height: normal;
+    padding: 8px 26px;
+    box-shadow: 0 1px 4px 0 hsla(0,0%,61%,.5);
+    text-align: center;
+    cursor: pointer;
+}
+
+.section2{
+    margin-top: 20px;
+    text-align: center;
+    color: #4a4a4a;
+    font-size:x-small;
+     font-family: Barlow\ Condensed,sans-serif;
+}
