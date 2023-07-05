@@ -212,3 +212,57 @@ div ul li{
     font-size:x-small;
      font-family: Barlow\ Condensed,sans-serif;
 }
+
+footer{
+    position: static;
+    margin-top: 50px;
+    padding: 0 8%;
+    text-align: center;
+    background-color: #f8f5f2;
+    font-size: large;
+    color: #4a4a4a;
+    box-shadow: 0 1px 4px 0 hsla(0,0%,61%,.5);
+}
+
+.footer-container{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.footer-child1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-child1 img{
+    width: 100px;
+    height: 60px;
+}
+
+.footer-child1 ul{
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-child1 ul li{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.footer-child1 ul li a{
+    padding: 10px 20px;
+    color: #4a4a4a;
+    text-decoration: none;
+    text-align: center;
+    font-family:Barlow\ Condensed,sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
