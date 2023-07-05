@@ -266,3 +266,29 @@ footer{
     font-weight: 300;
     font-size: 14px;
 }
+
+
+.footer-child2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-family:Barlow\ Condensed,sans-serif;
+    font-size: small;
+    margin-top: 15px;
+}
+
+.footer-child2 span{
+    font-weight: 400;
+    padding: 15px 0;
+    color: #9f9d9a;
+}
+
+.footer-child2 a{
+    font-weight: 400;
+    border-left: 1px solid #9f9d9a;
+    color: #9f9d9a;
+    letter-spacing: 1.6px;
+    margin: 0 10px;
+    padding-left: 20px;
+}
