@@ -156,6 +156,8 @@ div ul li{
 .body-child3{
     display: flex;
     flex-flow: column wrap;
+    margin-top: 30px;
+    border-top: 0.5px solid #d4d1cd;
 }
 
 .section1{
@@ -190,7 +192,10 @@ div ul li{
 }
 
 .part2{
-    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
     border-color: #a3a3a3;
     color: #4a4a4a;
     padding: 6px 24px;
